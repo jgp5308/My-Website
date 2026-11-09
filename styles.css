@@ -93,6 +93,7 @@ h2 { font-size: clamp(2.5rem, 5vw, 4.5rem); }
 
 .facts-module { margin-top: 2rem; }
 .facts-panel { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .75rem; margin-top: 1rem; }
+.facts-panel[hidden] { display: none; }
 .fact-card { display: grid; gap: .35rem; padding: 1rem; border: 1px solid var(--line); border-radius: .35rem; background: rgba(255, 253, 248, .55); }
 .fact-card span { color: var(--ocean); font-size: .7rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
 .fact-card strong { color: var(--navy); font-family: Georgia, "Times New Roman", serif; font-size: 1.05rem; font-weight: 500; line-height: 1.2; }
