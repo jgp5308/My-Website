@@ -16,8 +16,11 @@
     <header class="site-header">
       <div class="container header-inner">
         <a class="brand" href="#home" aria-label="Portfolio home">Jacob Petersen<span>.</span></a>
+        <div class="header-controls">
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">Menu</button>
+        </div>
         <nav aria-label="Primary navigation">
-          <ul class="nav-list">
+          <ul class="nav-list" id="primary-menu">
             <li><a class="nav-link active" href="#home" aria-current="page">Home</a></li>
             <li><a class="nav-link" href="about.html">About Me</a></li>
             <li><a class="nav-link" href="#projects">Projects</a></li>
@@ -120,5 +123,6 @@
         <a class="text-link" href="#home">Back to top <span aria-hidden="true">↑</span></a>
       </div>
     </footer>
+    <script src="script.js" defer></script>
   </body>
 </html>
